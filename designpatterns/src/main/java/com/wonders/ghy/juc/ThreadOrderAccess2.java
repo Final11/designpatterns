@@ -96,7 +96,7 @@ class B{
  * 3多线程交互中，必须要防止多线程的虚假唤醒，也即（不能用if 只能用while）
  * 4标志位
  */
-public class A {
+public class ThreadOrderAccess2 {
     public static void main(String[] args) throws  Exception{
         B b = new B();
         new Thread(()->{for (int i = 0; i < 10; i++) {b.send5();}},"A").start();
