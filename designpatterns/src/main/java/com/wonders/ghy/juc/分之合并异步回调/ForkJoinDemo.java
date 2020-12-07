@@ -1,6 +1,4 @@
-package com.wonders.ghy.juc;
-
-import com.sun.scenario.effect.impl.prism.PrImage;
+package com.wonders.ghy.juc.分之合并异步回调;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;

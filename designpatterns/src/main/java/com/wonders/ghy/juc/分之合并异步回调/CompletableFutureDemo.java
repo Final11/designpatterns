@@ -1,4 +1,4 @@
-package com.wonders.ghy.juc;
+package com.wonders.ghy.juc.分之合并异步回调;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;

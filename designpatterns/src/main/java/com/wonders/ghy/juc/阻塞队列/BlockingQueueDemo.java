@@ -1,4 +1,4 @@
-package com.wonders.ghy.juc;
+package com.wonders.ghy.juc.阻塞队列;
 
 import java.util.Collection;
 import java.util.concurrent.ArrayBlockingQueue;
